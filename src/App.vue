@@ -53,7 +53,7 @@ fillings. Let it cook for another minute, then slide it onto a plate.",
 </script>
 
 <template>
-  <main>
+  <main class="md:border-b md:border-white md:bg-white">
     <ImageComponent :imagesrc="recipeData.recipeImage" />
     <div class="w-5/6 mx-auto">
       <TitleComponent :recipeTitle="recipeData.recipeTitle" />
