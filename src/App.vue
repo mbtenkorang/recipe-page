@@ -55,12 +55,14 @@ fillings. Let it cook for another minute, then slide it onto a plate.",
 <template>
   <main>
     <ImageComponent :imagesrc="recipeData.recipeImage" />
-    <TitleComponent :recipeTitle="recipeData.recipeTitle" />
-    <DescriptionComponent :description="recipeData.description" />
-    <PreparationTimeComponent :prepTime="recipeData.preparationtime" />
-    <IngredientsComponent :ingredientsList="recipeData.ingredients" />
-    <InstructionsComponent :instructionSteps="recipeData.instructions" />
-    <NutritionComponent :nutritionInfo="recipeData.nutritionValues" />
+    <div>
+      <TitleComponent :recipeTitle="recipeData.recipeTitle" />
+      <DescriptionComponent :description="recipeData.description" />
+      <PreparationTimeComponent :prepTime="recipeData.preparationtime" />
+      <IngredientsComponent :ingredientsList="recipeData.ingredients" />
+      <InstructionsComponent :instructionSteps="recipeData.instructions" />
+      <NutritionComponent :nutritionInfo="recipeData.nutritionValues" />
+    </div>
   </main>
 </template>
 
