@@ -11,7 +11,7 @@ const props = defineProps({
         <div class="ml-4">
             <ul role="list" class="list-disc list-outside marker:text-nutmeg">
                 <li v-for="(item,index) in ingredientsList" :key="index">
-                    <p class="ml-3 text-darkcharcoal">{{ item }}</p>
+                    <p class="ml-6 mb-2 text-darkcharcoal">{{ item }}</p>
                 </li>
             </ul>
         </div>

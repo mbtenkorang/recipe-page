@@ -11,7 +11,7 @@ const props = defineProps({
         <div class="ml-6 mb-4">
             <ul role="list" class="list-disc list-outside marker:text-darkraspberry">
                 <li v-for="(value,key) in prepTime" :key="key" class="last:mb-0 mb-2">
-                    <span class="font-bold ml-3">{{ key }}</span>: <span class="text-darkcharcoal">{{ value }}</span>
+                    <span class="font-bold ml-5">{{ key }}</span>: <span class="text-darkcharcoal">{{ value }}</span>
                 </li>
             </ul>
         </div>
