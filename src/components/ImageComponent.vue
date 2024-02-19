@@ -6,6 +6,6 @@ const props = defineProps({
 
 <template>
     <div>
-        <img :src="imagesrc" alt="omellette" class="w-full">
+        <img :src="imagesrc" alt="omellette">
     </div>
 </template>
