@@ -6,12 +6,12 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <h2>Ingredients</h2>
+    <div class="mb-10 pb-6 border-b borger-wengebrown">
+        <h2 class="font-serif text-2xl text-nutmeg mb-6">Ingredients</h2>
         <div>
-            <ul class="list-disc">
+            <ul role="list" class="list-disc list-inside marker:text-nutmeg">
                 <li v-for="(item,index) in ingredientsList" :key="index">
-                    {{ item }}
+                    <span class="ml-3 text-darkcharcoal">{{ item }}</span>
                 </li>
             </ul>
         </div>

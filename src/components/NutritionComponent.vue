@@ -5,14 +5,18 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <h2>Nutrition</h2>
+    <div class="mb-10">
+        <h2 class="font-serif text-2xl text-nutmeg mb-6">Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
-        <table>
-            <tr v-for="(value,key) in nutritionInfo" :key="key">
-                <td>{{ key }}</td>
-                <td>{{ value }}</td>
-            </tr>
-        </table>
+        <div>
+            <ul>
+                <li v-for="(value,key) in nutritionInfo" :key="key">
+                    <p>
+                        <span>{{ key }}</span>
+                        <span>{{ value }}</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
