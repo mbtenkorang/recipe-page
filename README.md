@@ -25,7 +25,7 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [recipe-page repo](https://github.com/mbtenkorang/recipe-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
