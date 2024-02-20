@@ -10,7 +10,7 @@ import NutritionComponent from './components/NutritionComponent.vue';
 
 const recipeData = reactive({
   recipeTitle: "Simple Omelette Recipe",
-  recipeImage: "./src/assets/images/image-omelette.jpeg",
+  recipeImage: "./images/image-omelette.jpeg",
   description:
     "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked\
     to perfection, optionally filled with your choice of cheese, vegetables, or meats.",

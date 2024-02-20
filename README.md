@@ -26,7 +26,7 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 ### Links
 
 - Solution URL: [recipe-page repo](https://github.com/mbtenkorang/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [recipe-app website](https://recipe-app-whxn.onrender.com/)
 
 ## My process
 
@@ -41,7 +41,7 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 
 ### What I learned
 
-- Using use directives especially v-bind and v-for
+- Using vue directives especially v-bind and v-for
 - Styling lists
 - Formatting data in tables
 
@@ -57,4 +57,4 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 ## Author
 
 - GitHub Repo - [Moses](https://github.com/mbtenkorang)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@moses](https://www.frontendmentor.io/profile/mbtenkorang)
