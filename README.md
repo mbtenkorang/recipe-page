@@ -36,7 +36,7 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 - Table
 - Mobile-first workflow
 - [Vue](https://vuejs.org/) - JS library
-- [Vite](https://vitejs.dev/) - frontend build tool
+- [Vite](https://vitejs.dev/) - React framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
