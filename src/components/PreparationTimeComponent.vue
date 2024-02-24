@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="my-10 py-4 px-3 bg-rosewhite rounded-lg">
+    <section class="my-10 py-4 px-3 bg-rosewhite rounded-lg">
         <h2 class="text-xl font-bold my-4 ml-3 text-darkraspberry">Preparation time</h2>
         <div class="ml-6 mb-4">
             <ul role="list" class="list-disc list-outside marker:text-darkraspberry">
@@ -15,6 +15,6 @@ const props = defineProps({
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
 </template>
 

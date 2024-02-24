@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="mb-10 pb-8 border-b border-lightgrey">
+    <section class="mb-10 pb-8 border-b border-lightgrey">
         <h2 class="font-serif text-2xl text-nutmeg mb-6">Preparation Time</h2>
         <div class="ml-4 mr-6">
             <ol role="list" class="list-decimal list-outside marker:text-nutmeg text-darkcharcoal">
@@ -16,5 +16,5 @@ const props = defineProps({
                 </li>
             </ol>
         </div>
-    </div>
+    </section>
 </template>

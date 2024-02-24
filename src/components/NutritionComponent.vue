@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="mb-10">
+    <section class="mb-10">
         <h2 class="font-serif text-2xl text-nutmeg mb-6">Nutrition</h2>
         <p class="my-3 text-darkcharcoal lg:text-base">The table below shows nutritional values per serving without the
             additional fillings.</p>
@@ -17,5 +17,5 @@ const props = defineProps({
             </tr>
         </table>
 
-    </div>
+    </section>
 </template>
