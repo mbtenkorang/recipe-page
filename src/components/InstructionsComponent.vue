@@ -7,7 +7,7 @@ const props = defineProps({
 
 <template>
     <section class="mb-10 pb-8 border-b border-lightgrey">
-        <h2 class="font-serif text-2xl text-nutmeg mb-6">Preparation Time</h2>
+        <h2 class="font-serif text-2xl text-nutmeg mb-6">Instructions</h2>
         <div class="ml-4 mr-6">
             <ol role="list" class="list-decimal list-outside marker:text-nutmeg text-darkcharcoal">
                 <li v-for="(value,key,index) in instructionSteps" :key="index+110" class=" mb-2 last:mb-0">
