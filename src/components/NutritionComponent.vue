@@ -12,7 +12,7 @@ const props = defineProps({
 
         <table class="w-full table-auto">
             <tr v-for="(value,key) in nutritionInfo" :key="key" class="border-b border-lightgrey">
-                <td class="py-4 pl-8">{{ key }}</td>
+                <th scope="row" class="py-4 pl-8">{{ key }}</th>
                 <td class="text-nutmeg font-bold">{{ value }}</td>
             </tr>
         </table>
