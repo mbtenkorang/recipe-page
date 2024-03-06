@@ -6,6 +6,6 @@ const props = defineProps({
 
 <template>
     <div>
-        <h1 class="font-serif text-4xl my-8 text-darkcharcoal lg:text-5xl">{{ recipeTitle }}</h1>
+        <h1 class="font-serif text-4xl my-8 text-darkcharcoal">{{ recipeTitle }}</h1>
     </div>
 </template>
