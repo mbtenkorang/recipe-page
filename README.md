@@ -52,7 +52,7 @@ A frontend mentor task that requires creating a webpage for an omellette recipe.
 ### Useful resources
 
 - [Frontend Development Projects with Vue.js 3](https://www.packtpub.com/product/frontend-development-projects-with-vue-js-3/9781803234991) - Vuejs Reference
-- [TailwindCSS Documentation](https://tailwindcss.com/docs/installation) - Reference for utility styles in Tailwind
+- [TailwindCSS Documentation](https://tailwindcss.com/docs/installation) - Reference for utility classes in Tailwind
 
 ## Author
 
