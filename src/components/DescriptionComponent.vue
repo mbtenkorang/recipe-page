@@ -5,7 +5,5 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <p class="font-sans text-pretty text-darkcharcoal lg:text-base">{{ description }}</p>
-    </div>
+    <p class="font-sans text-pretty text-darkcharcoal lg:text-base">{{ description }}</p>
 </template>
